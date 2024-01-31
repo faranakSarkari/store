@@ -1,0 +1,18 @@
+.loading{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    transition:all 3s;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.lodingOpacity{
+    opacity: 0;
+    visibility: hidden;
+}
